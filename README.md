@@ -3,3 +3,4 @@
 
 ![](https://github.com/GorpelnChen/AppUpdateCheck/blob/master/screenshot/AppUpdateCheck_01.png)
 ![](https://github.com/GorpelnChen/AppUpdateCheck/blob/master/screenshot/AppUpdateCheck_02.png)
+![](https://github.com/GorpelnChen/AppUpdateCheck/blob/master/screenshot/AppUpdateCheck_01.png)![](https://github.com/GorpelnChen/AppUpdateCheck/blob/master/screenshot/AppUpdateCheck_02.png)

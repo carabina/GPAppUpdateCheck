@@ -14,11 +14,11 @@
 		74B6D0A7216B447900643A49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B6D0A6216B447900643A49 /* main.m */; };
 		74B6D0B1216B447900643A49 /* GPAppUpdateCheckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B6D0B0216B447900643A49 /* GPAppUpdateCheckTests.m */; };
 		74B6D0BC216B447900643A49 /* GPAppUpdateCheckUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B6D0BB216B447900643A49 /* GPAppUpdateCheckUITests.m */; };
-		74B6D0CF216B451F00643A49 /* GPNewEditionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B6D0CB216B451C00643A49 /* GPNewEditionManager.m */; };
-		74B6D0D0216B451F00643A49 /* GPAppStoreInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B6D0CD216B451E00643A49 /* GPAppStoreInfoModel.m */; };
 		74B6D0D4216B45BA00643A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B6D0D1216B45B700643A49 /* LaunchScreen.storyboard */; };
 		74B6D0D5216B45BA00643A49 /* GPLaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B6D0D2216B45B900643A49 /* GPLaunchScreen.png */; };
 		74B6D0D6216B45BA00643A49 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74B6D0D3216B45BA00643A49 /* icon.png */; };
+		74B6D0DC216B4DE900643A49 /* GPAppStoreInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B6D0DA216B4DE900643A49 /* GPAppStoreInfoModel.m */; };
+		74B6D0DD216B4DE900643A49 /* GPNewEditionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B6D0DB216B4DE900643A49 /* GPNewEditionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +54,13 @@
 		74B6D0B7216B447900643A49 /* GPAppUpdateCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPAppUpdateCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B6D0BB216B447900643A49 /* GPAppUpdateCheckUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPAppUpdateCheckUITests.m; sourceTree = "<group>"; };
 		74B6D0BD216B447900643A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74B6D0CB216B451C00643A49 /* GPNewEditionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPNewEditionManager.m; sourceTree = "<group>"; };
-		74B6D0CC216B451D00643A49 /* GPAppStoreInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPAppStoreInfoModel.h; sourceTree = "<group>"; };
-		74B6D0CD216B451E00643A49 /* GPAppStoreInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPAppStoreInfoModel.m; sourceTree = "<group>"; };
-		74B6D0CE216B451E00643A49 /* GPNewEditionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPNewEditionManager.h; sourceTree = "<group>"; };
 		74B6D0D1216B45B700643A49 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74B6D0D2216B45B900643A49 /* GPLaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GPLaunchScreen.png; sourceTree = "<group>"; };
 		74B6D0D3216B45BA00643A49 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		74B6D0D8216B4DE900643A49 /* GPNewEditionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPNewEditionManager.h; sourceTree = "<group>"; };
+		74B6D0D9216B4DE900643A49 /* GPAppStoreInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPAppStoreInfoModel.h; sourceTree = "<group>"; };
+		74B6D0DA216B4DE900643A49 /* GPAppStoreInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPAppStoreInfoModel.m; sourceTree = "<group>"; };
+		74B6D0DB216B4DE900643A49 /* GPNewEditionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPNewEditionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 			children = (
 				74B6D097216B447600643A49 /* AppDelegate.h */,
 				74B6D098216B447600643A49 /* AppDelegate.m */,
-				74B6D0CA216B450700643A49 /* GPAppUpdateCheck */,
+				74B6D0D7216B4DE900643A49 /* GPAppUpdateCheck */,
 				74B6D0C9216B449900643A49 /* Other */,
 			);
 			path = GPAppUpdateCheck;
@@ -153,15 +153,16 @@
 			name = Other;
 			sourceTree = "<group>";
 		};
-		74B6D0CA216B450700643A49 /* GPAppUpdateCheck */ = {
+		74B6D0D7216B4DE900643A49 /* GPAppUpdateCheck */ = {
 			isa = PBXGroup;
 			children = (
-				74B6D0CC216B451D00643A49 /* GPAppStoreInfoModel.h */,
-				74B6D0CD216B451E00643A49 /* GPAppStoreInfoModel.m */,
-				74B6D0CE216B451E00643A49 /* GPNewEditionManager.h */,
-				74B6D0CB216B451C00643A49 /* GPNewEditionManager.m */,
+				74B6D0D8216B4DE900643A49 /* GPNewEditionManager.h */,
+				74B6D0D9216B4DE900643A49 /* GPAppStoreInfoModel.h */,
+				74B6D0DA216B4DE900643A49 /* GPAppStoreInfoModel.m */,
+				74B6D0DB216B4DE900643A49 /* GPNewEditionManager.m */,
 			);
 			name = GPAppUpdateCheck;
+			path = ../../GPAppUpdateCheck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,10 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74B6D0CF216B451F00643A49 /* GPNewEditionManager.m in Sources */,
 				74B6D09C216B447600643A49 /* ViewController.m in Sources */,
-				74B6D0D0216B451F00643A49 /* GPAppStoreInfoModel.m in Sources */,
 				74B6D0A7216B447900643A49 /* main.m in Sources */,
+				74B6D0DC216B4DE900643A49 /* GPAppStoreInfoModel.m in Sources */,
+				74B6D0DD216B4DE900643A49 /* GPNewEditionManager.m in Sources */,
 				74B6D099216B447600643A49 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

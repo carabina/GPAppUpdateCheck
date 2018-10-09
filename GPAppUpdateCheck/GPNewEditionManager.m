@@ -49,9 +49,9 @@
 
 - (void)checkNewVersion:(NSString *)appID ctrl:(UIViewController *)containCtrl updateType:(NSInteger)updateType{
     [self getAppStoreVersion:appID sucess:^(GPAppStoreInfoModel *model) {
-        
+
         UIAlertController *alertController = [UIAlertController alertControllerWithTitle:[NSString stringWithFormat:@"有新的版本(%@)",model.version] message:model.releaseNotes preferredStyle:UIAlertControllerStyleAlert];
-        
+
         UIAlertAction *updateAction = [UIAlertAction actionWithTitle:@"立即升级" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             [self updateRightNow:model];
         }];
@@ -59,7 +59,7 @@
         UIAlertAction *ignoreAction = [UIAlertAction actionWithTitle:@"忽略" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             [self ignoreNewVersion:model.version];
         }];
-        
+
         switch (updateType) {
             case 1:{
                 [alertController addAction:updateAction];

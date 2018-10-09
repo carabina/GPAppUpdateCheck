@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
 @class GPAppStoreInfoModel;
 
 typedef void(^CheckVersionBlock)(GPAppStoreInfoModel *appInfo);

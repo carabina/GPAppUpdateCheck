@@ -157,9 +157,9 @@
 			isa = PBXGroup;
 			children = (
 				74B6D0D8216B4DE900643A49 /* GPNewEditionManager.h */,
+				74B6D0DB216B4DE900643A49 /* GPNewEditionManager.m */,
 				74B6D0D9216B4DE900643A49 /* GPAppStoreInfoModel.h */,
 				74B6D0DA216B4DE900643A49 /* GPAppStoreInfoModel.m */,
-				74B6D0DB216B4DE900643A49 /* GPNewEditionManager.m */,
 			);
 			name = GPAppUpdateCheck;
 			path = ../../GPAppUpdateCheck;
